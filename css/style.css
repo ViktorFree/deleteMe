@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  font-family: Nunito;
+  background-color: #E5E5E5;
+}
+
+.order-box {
+  padding: 40px;
+  margin: 0 auto;
+
+  max-width: 780px;
+  max-height: 340px;
+
+  background-color: #fff;
+}
+
+address {
+  font-family: inherit;
+  font-style: normal;
+}
+
+.order-number {
+  padding-bottom: 5px;
+
+  display: block;
+  line-height: 21.82px;
+  color: #73798C;
+}
+
+.order-status {
+  padding-bottom: 31px;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 4px solid #E2E2E9;
+}
+
+  .tittle-2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+  .order-time {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+.order-address {
+  margin-bottom: 70px;
+  padding-top: 18px;
+
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.order-address_320px {
+  display: none;
+}
+
+
+.order-btn__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+}
+
+  .btn {
+    padding: 13px 20px;
+
+    font-family: inherit;
+    font-weight: 600;
+
+    line-height: 22px;
+    text-align: center;
+
+    border: none;
+    border-radius: 1000px;
+    
+    cursor: pointer;
+    transition: 0.3s linear;
+  }
+
+  .btn--light {
+    color: #D15700;
+    background: #FFF0E6;
+  }
+
+  .btn--light:hover {
+    background: #f6d4bd;
+  }
+
+  .btn--dark {
+    padding: 13px 27px;
+
+    color: #fff;
+    background: #F96900;
+  }
+
+  .btn--dark:hover {
+    background: #d85a00;
+  }

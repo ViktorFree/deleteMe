@@ -1,0 +1,32 @@
+.order-box {
+  padding: 16px;
+  min-height: 377px;
+}
+
+.order-time {
+  display: none;
+}
+
+.order-status {
+  margin-bottom: 12px;
+  padding-bottom: 0;
+  border: none;
+}
+
+.order-address {
+  display: none;
+}
+
+.order-address_320px {
+  padding: 18px 20px;
+
+  display: block;
+
+  background: #F3F3F7;
+  border-radius: 10px;
+}
+
+.order-btn__container {
+  flex-direction: column;
+  gap: 10px 0;
+}
